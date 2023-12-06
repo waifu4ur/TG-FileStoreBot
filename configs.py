@@ -33,29 +33,30 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Predator HackerzZ](https://t.me/OwnYourBotz) 
+├🔸 **Developer:** [Snowball](https://t.me/Snowball_Official) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/TeleRoid14)
+├🔹 **Bot Support:** [Support](https://t.me/Roofiverse)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/TeleRoidGroup)
+├🔸 **Bot Updates:** [Bots Channel](https://t.me/Rokubotz)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Snowball](https://github.com/Snowball-0)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or ```MrAbhi2k3@apl```
+[Donate Me](https://t.me/Snowball_Official) or ```Snowball_Official```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
 How to Use Bot & it's Benefits??
 
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
+📢 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ, I ᴡɪʟʟ sᴛᴏʀᴇ ɪᴛ ɪɴ ᴍʏ Dᴀᴛᴀʙᴀsᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜʀ sʜᴀʀᴇʙʟᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴀᴛ ғɪʟᴇ.
 
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
 
-❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
+🚀 Powered By @Roofiverse
+
 """
+	
