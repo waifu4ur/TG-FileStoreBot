@@ -61,7 +61,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/Team_Roku")
+                        InlineKeyboardButton(" Support Group", url="https://t.me/haniflix_verse")
                     ]
                 ]
             )
