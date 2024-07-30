@@ -52,7 +52,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/TGRobot_List")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/Rokubotz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -61,7 +61,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/Team_Roku")
+                        InlineKeyboardButton(" Support Group", url="https://t.me/haniflix_verse")
                     ]
                 ]
             )
@@ -98,7 +98,7 @@ async def main(bot: Client, message: Message):
             if back == 400:
                 return
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/TeleRoid14)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/haniflix_verse)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
