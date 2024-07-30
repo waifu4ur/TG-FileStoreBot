@@ -3,29 +3,29 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
+	API_ID = int(os.environ.get("API_ID", "27526328"))
+	API_HASH = os.environ.get("API_HASH", "db231e73712db0b6397f624a75a760f8")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", " 6791224524:AAHdWd5lTOBZzZqVI3duDRPfejIzdkgtr4E")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Cholefilestorebot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001941319109"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7102263732"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Anivoid:akhand1616@cluster05.kzyifsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster05")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001941319109")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
-	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
+	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
-	OTHER_USERS_CAN_SAVE_FILE = [int(id) for id in os.environ.get("OTHER_USERS_CAN_SAVE_FILE", "").split(",") if id.strip()]
+	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
+	OTHER_USERS_CAN_SAVE_FILE = [int(id) for id in os.environ.get("OTHER_USERS_CAN_SAVE_FILE", "1582227872").split(",") if id.strip()]
 	ABOUT_BOT_TEXT = f"""
 This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
 │
-├🔸 **My Name:** [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 **My Name:** [FileStore Bot](https://t.me/Cholefilestorebot)
 │
 ├🔸 **Language:** [Python 3](https://www.python.org)
 │
@@ -33,20 +33,20 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Predator HackerzZ](https://t.me/OwnYourBotz) 
+├🔸 **Developer:** [Aries](https://t.me/Ariesaep) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/TeleRoid14)
+├🔹 **Bot Support:** [Support Group](https://t.me/Team_Roku)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/TeleRoidGroup)
+├🔸 **Bot Updates:** [Bots Channel](https://t.me/Rokubotz)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@Ariesaep](https://github.com/PredatorHackerzZ)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or ```teleroidgroup@axl```
+[Donate Me]() or ``````
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
